@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /* background-color: #282c34; */
 }
 
 .App-logo {
@@ -26,6 +27,14 @@
 
 .App-link {
   color: #61dafb;
+}
+
+*[role="cell"] {
+  /* style these a buttons w/o relying on a .button class */
+  max-width: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 @keyframes App-logo-spin {
