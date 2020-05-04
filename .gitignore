@@ -4,6 +4,7 @@
 /node_modules
 /uploads
 /certs
+db.json
 /.pnp
 .pnp.js
 
